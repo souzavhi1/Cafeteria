@@ -1,0 +1,16 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Cafeteria</string>
+    <string name="min_message">A Menor quantidade é 1</string>
+    <string name="max_message">A Maior quantidade é 100</string>
+    <string name="cobertura_titulo">Coberturas</string>
+    <string name="cobertura_1">Chantilly</string>
+    <string name="Cobertura_2">Chocolate</string>
+    <string name="quantidade_titulo">Quantidade</string>
+    <string name="pedido">Pedido</string>
+    <string name="order_summary_1">Name: <xliff:g id="name" example="Mary">%s</xliff:g></string>
+    <string name="order_summary_2">Add Whipped Cream? <xliff:g id="bool" example="true">%b</xliff:g></string>
+    <string name="order_summary_3">Add Chocolate? <xliff:g id="bool" example="true">%b</xliff:g></string>
+    <string name="order_summary_4">Quantity: <xliff:g id="quantity" example="10">%d</xliff:g></string>
+    <string name="order_summary_5">Total: $ <xliff:g id="total" example="$10.00">%d</xliff:g></string>
+    <string name="order_summary_6">Thank You</string>
+</resources>

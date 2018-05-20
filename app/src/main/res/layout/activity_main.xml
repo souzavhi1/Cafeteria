@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nome_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:inputType="textCapWords"
+        android:hint="Nome"/>
+
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:text="@string/cobertura_titulo"
+        style="@style/HeaderTextStyle"/>
+
+    <CheckBox
+        android:id="@+id/chantilly_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="24dp"
+        android:text="@string/cobertura_1"
+        android:textSize="16sp"/>
+
+    <CheckBox
+        android:id="@+id/chocolate_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="24dp"
+        android:text="@string/Cobertura_2"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:text="@string/quantidade_titulo"
+        style="@style/HeaderTextStyle"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="decremento"
+            android:text="-"/>
+
+        <TextView
+            android:id="@+id/qtd_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="8dp"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="incremento"
+            android:text="+"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="enviarpedido"
+        android:text="@string/pedido"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Order Summary"
+        android:textAllCaps="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/order_Summary_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+
+
+</LinearLayout>
